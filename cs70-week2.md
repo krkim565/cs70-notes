@@ -1,7 +1,7 @@
 # Kimberley Rangel
 ## Week 2 Reading
 
-I'm really glad we read the other textbook chapters first because otherwise this chapter would have been harder to follow.
+I'm really glad we read the VMLS textbook first because otherwise this chapter would have been harder to follow.
 
 ### Chapter 1.1
 - Key Terms:
