@@ -31,16 +31,16 @@ Ex:
         - The converse is true: Any scalar-valued function that satisfies the restricted superposition property is affine. 
     - Civil engineering example showing real-life application of inner product use (predicting a measurement)
 ### 2.2 Taylor approximation
-    - "In many applications, scalar-valued functions of n variables, or relations between n variables and a scalar one, can be approximated as linear or affine functions. In these cases we sometimes refer to the linear or affine function relating the variables and the scalar variable as a model, to remind us that the relation is only an approximation, and not exact" (35).
+- "In many applications, scalar-valued functions of n variables, or relations between n variables and a scalar one, can be approximated as linear or affine functions. In these cases we sometimes refer to the linear or affine function relating the variables and the scalar variable as a model, to remind us that the relation is only an approximation, and not exact" (35).
     - The first-order Taylor approximation $\hat{f}(x)$ is a very good approximation of f(x) when all $x_i$ are near the associated $z_i$. So, $\hat{f}$ is an affine function of x
     - Example is given where $f: \mathbb{R}^2 \rightarrow \mathbb{R}$
 ### 2.3 Regression model
-    $$\hat{y} = x^T\beta + v$$ is an affine function called a regression model where beta is an n-vector and v is a scalar. 
-        - In this context, the entries of x are called the regressors, and ^y is called the prediction, since the regression model is typically an approximation or prediction of some true value y,which is called the dependent variable, outcome, or label.
-        - \beta and v are called the parameters in the model
-        - The entries in the weight vector have a simple interpretation: $\beta_i$ is the amount by which ^y increases (if $\beta_i$ > 0) when feature i increases by one (with all other features the same). If $\beta_i$ is small, the prediction ^y doesn't depend too strongly on feature i. The offset v is the value of ^y when all features have the value 0.
-    - Simplified regression model notation
-    - House price regression model
+$$\hat{y} = x^T\beta + v$$ is an affine function called a regression model where beta is an n-vector and v is a scalar. 
+- In this context, the entries of x are called the regressors, and ^y is called the prediction, since the regression model is typically an approximation or prediction of some true value y,which is called the dependent variable, outcome, or label.
+- \beta and v are called the parameters in the model
+- The entries in the weight vector have a simple interpretation: $\beta_i$ is the amount by which ^y increases (if $\beta_i$ > 0) when feature i increases by one (with all other features the same). If $\beta_i$ is small, the prediction ^y doesn't depend too strongly on feature i. The offset v is the value of ^y when all features have the value 0.
+- Simplified regression model notation
+- House price regression model
 
 ## Chapter 5
 ### 5.1 Linear dependence
